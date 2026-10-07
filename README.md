@@ -58,7 +58,7 @@ ansible-galaxy collection install my_own_namespace-yandex_cloud_elk-1.0.0.tar.gz
 **Что проверяли:** Установку собранной коллекции через `ansible-galaxy collection install`.
 **Результат:** Коллекция успешно распакована в директорию коллекций Ansible.
 
-![Пункт 15: Установка коллекции](proof_p15_install.png)
+![Пункт 15: Установка коллекции](proof_p_install.png)
 
 > *На скриншоте виден вывод команды: `... was installed successfully` и путь установки.*
 
@@ -67,6 +67,8 @@ ansible-galaxy collection install my_own_namespace-yandex_cloud_elk-1.0.0.tar.gz
 ## Пункт 16. Запуск плейбука с ролью
 **Что проверяли:** Работу роли, которая использует кастомный модуль.
 **Результат:** Роль корректно применилась, файл создан/обновлен.
+
+![Пункт 16: Запуск плейбука с ролью](proof_p15_install.png)
 
 ![Пункт 16: Запуск плейбука с ролью](proof_p16_role_run.png)
 
