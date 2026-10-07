@@ -29,8 +29,8 @@
 
 ```bash
 ansible-galaxy collection install my_own_namespace-yandex_cloud_elk-1.0.0.tar.gz --force
-
+```
 Ссылки на артефакты:
 
-    Репозиторий коллекции:
-    Архив коллекции (.tar.gz): 
+    Репозиторий коллекции: https://github.com/Chehlov1M/my_own_collection
+    Архив коллекции (.tar.gz): https://github.com/Chehlov1M/my_own_collection/my_own_namespace-yandex_cloud_elk-1.0.0.tar.gz
