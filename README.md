@@ -58,7 +58,7 @@ ansible-galaxy collection install my_own_namespace-yandex_cloud_elk-1.0.0.tar.gz
 **Что проверяли:** Установку собранной коллекции через `ansible-galaxy collection install`.
 **Результат:** Коллекция успешно распакована в директорию коллекций Ansible.
 
-![Пункт 15: Установка коллекции](galaxy_collection.png.)
+![Пункт 15: Установка коллекции](galaxy_collection.png)
 
 > *На скриншоте виден вывод команды: `... was installed successfully` и путь установки.*
 
