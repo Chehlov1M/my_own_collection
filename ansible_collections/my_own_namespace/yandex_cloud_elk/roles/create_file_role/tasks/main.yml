@@ -1,0 +1,6 @@
+---
+- name: Create or update file via custom module
+  my_own_namespace.yandex_cloud_elk.file_creator:
+    path: "{{ file_path }}"
+    content: "{{ file_content }}"
+  register: file_result

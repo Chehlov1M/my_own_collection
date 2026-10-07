@@ -1,0 +1,30 @@
+{
+ "collection_info": {
+  "namespace": "my_own_namespace",
+  "name": "yandex_cloud_elk",
+  "version": "1.0.0",
+  "authors": [
+   "Chehlov1M"
+  ],
+  "readme": "README.md",
+  "tags": [],
+  "description": "Collection with custom modules",
+  "license": [
+   "MIT"
+  ],
+  "license_file": null,
+  "dependencies": {},
+  "repository": null,
+  "documentation": null,
+  "homepage": null,
+  "issues": null
+ },
+ "file_manifest_file": {
+  "name": "FILES.json",
+  "ftype": "file",
+  "chksum_type": "sha256",
+  "chksum_sha256": "70db6f17a05908b9816491d18216b64a77f2462b34941aa2bbdad56aca89ea6d",
+  "format": 1
+ },
+ "format": 1
+}

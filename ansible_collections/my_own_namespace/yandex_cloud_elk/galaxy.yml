@@ -1,0 +1,13 @@
+namespace: my_own_namespace
+name: yandex_cloud_elk
+version: 1.0.0
+readme: README.md
+authors:
+  - Misha (Chehlov1M)
+license: MIT
+description: Collection with custom module and role for Ansible homework
+tags: [ansible, module, role, homework]
+dependencies: {}
+repository: https://github.com/Chehlov1M/my_own_collection
+homepage: https://github.com/Chehlov1M/my_own_collection
+issues: https://github.com/Chehlov1M/my_own_collection/issues

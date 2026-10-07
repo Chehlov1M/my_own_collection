@@ -1,0 +1,11 @@
+- hosts: localhost
+  connection: local
+  tasks:
+    - name: Test custom module from collection
+      my_own_namespace.yandex_cloud_elk.file_creator:
+        path: /tmp/test_custom_module_from_collection.txt
+        content: "This is a test from my own module (collection)."
+      register: res
+
+    - debug:
+        var: res
