@@ -79,4 +79,4 @@ ansible-galaxy collection install my_own_namespace-yandex_cloud_elk-1.0.0.tar.gz
 | Артефакт | Ссылка |
 | :--- | :--- |
 | **Репозиторий коллекции** | [Chehlov1M/my_own_collection](https://github.com/Chehlov1M/my_own_collection) |
-| **Архив коллекции (.tar.gz)** | [my_own_namespace-yandex_cloud_elk-1.0.0.tar.gz]([https://github.com/Chehlov1M/my_own_collection](https://github.com/Chehlov1M/my_own_namespace-yandex_cloud_elk-1.0.0.tar.gz) |
+| **Архив коллекции (.tar.gz)** | [my_own_namespace-yandex_cloud_elk-1.0.0.tar.gz](https://github.com/Chehlov1M/my_own_collection/my_own_namespace-yandex_cloud_elk-1.0.0.tar.gz) |
