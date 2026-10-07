@@ -38,7 +38,7 @@ ansible-galaxy collection install my_own_namespace-yandex_cloud_elk-1.0.0.tar.gz
 **Что проверяли:** Запуск плейбука с кастомным модулем. Ожидаемый результат: `changed=1` (файл создан).
 **Результат:** Модуль успешно отработал, файл создан, флаг `changed` установлен в `true`.
 
-![Пункт 4: Первый запуск (changed=1)](screenshots/proof_p4_first_run.png)
+![Пункт 4: Первый запуск (changed=1)](proof_p4_first_run.png)
 
 > *На скриншоте видно: строка `changed: [localhost]` и в PLAY RECAP значение `changed=1`.*
 
@@ -48,7 +48,7 @@ ansible-galaxy collection install my_own_namespace-yandex_cloud_elk-1.0.0.tar.gz
 **Что проверяли:** Повторный запуск того же плейбука без удаления целевого файла. Ожидаемый результат: `changed=0`.
 **Результат:** Модуль определил, что файл уже существует и контент совпадает, изменений не внесено.
 
-![Пункт 6: Повторный запуск (changed=0)](screenshots/proof_p6_idempotent.png)
+![Пункт 6: Повторный запуск (changed=0)](proof_p6_idempotent.png)
 
 > *На скриншоте видно: строка `ok: [localhost]` и в PLAY RECAP значение `changed=0`. Это подтверждает идемпотентность.*
 
@@ -58,7 +58,7 @@ ansible-galaxy collection install my_own_namespace-yandex_cloud_elk-1.0.0.tar.gz
 **Что проверяли:** Установку собранной коллекции через `ansible-galaxy collection install`.
 **Результат:** Коллекция успешно распакована в директорию коллекций Ansible.
 
-![Пункт 15: Установка коллекции](screenshots/proof_p15_install.png)
+![Пункт 15: Установка коллекции](proof_p15_install.png)
 
 > *На скриншоте виден вывод команды: `... was installed successfully` и путь установки.*
 
@@ -68,7 +68,7 @@ ansible-galaxy collection install my_own_namespace-yandex_cloud_elk-1.0.0.tar.gz
 **Что проверяли:** Работу роли, которая использует кастомный модуль.
 **Результат:** Роль корректно применилась, файл создан/обновлен.
 
-![Пункт 16: Запуск плейбука с ролью](screenshots/proof_p16_role_run.png)
+![Пункт 16: Запуск плейбука с ролью](proof_p16_role_run.png)
 
 > *На скриншоте виден запуск плейбука `test_role_playbook.yml` и успешный результат (`ok=2, changed=1`).*
 
